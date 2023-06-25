@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary"
+    android:fitsSystemWindows="true"
+    tools:context=".Principal_planta">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="359dp"
+        android:layout_height="74dp"
+        android:fontFamily="@font/chango"
+        android:text="Ecolo C-Mita"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="91dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/iniciar_actividad_removebg_preview"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar una planta"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monitoreo de una planta"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Estadística"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="132dp"
+        android:layout_height="74dp"
+        app:srcCompat="@drawable/monitoreo_planta_removebg_preview"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="264dp"
+        android:layout_height="74dp"
+        app:srcCompat="@drawable/incono_graficas_removebg_preview"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
