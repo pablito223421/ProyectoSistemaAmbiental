@@ -11,33 +11,15 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Agua"
-        android:textColor="@color/design_default_color_error"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="601dp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Temperatura"
-        android:textColor="@color/design_default_color_error"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="240dp" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Humedad"
-        android:textColor="@color/design_default_color_error"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="426dp" />
+        android:layout_width="379dp"
+        android:layout_height="118dp"
+        android:fontFamily="@font/goldman"
+        android:text="Planta,Agua,Temperatura o Humedad"
+        android:textColor="@color/material_dynamic_neutral_variant20"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="133dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -54,32 +36,12 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="118dp"
-        android:layout_height="121dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.436"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/icono_temperatura_removebg_preview"
-        tools:layout_editor_absoluteY="107dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="131dp"
-        android:layout_height="129dp"
-        android:layout_marginEnd="164dp"
+        android:layout_width="303dp"
+        android:layout_height="393dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.475"
-        app:srcCompat="@drawable/humedad_planta_removebg_preview" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="178dp"
-        android:layout_height="215dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.369"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/agua_planta_removebg_preview"
-        tools:layout_editor_absoluteY="426dp" />
+        app:srcCompat="@drawable/microfonogoogle_removebg_preview" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
